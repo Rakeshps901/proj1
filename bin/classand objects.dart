@@ -1,6 +1,6 @@
 /// Class creation
 /// Syntax--> class Classname{
-/// instance variable-->globally declared variables --> (declared inside the class all the fuctions etc)
+/// instance variable-->globally declared variables --> (declared inside the class all the functions etc)
 /// static variable-->globally declared variables with static keyword
 ///                -->may/may not have initial value
 ///                -->static variables depends on class
