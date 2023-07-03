@@ -9,7 +9,7 @@ void main() {
 //NOTE : if u want to store specific type data then use List<datatype>listname--do not use var
 
 
-//2. list empty
+//2. list.empty
   List l1 = List
       .empty(); //this will create an empty list eg:[] (bcoz growable is false so cannot add values)
 
@@ -18,7 +18,7 @@ void main() {
   l2.addAll(numbers);
   l2.insert(1, 11);
 
-//3.List.from
+//3. list.from
   List l3=List.from([1,55,4,6,8]);
   l3.addAll(numbers);
 
@@ -31,6 +31,13 @@ void main() {
   l5[6]=8;
   l5[8]=6;
 
+//6. list.generate
+  List l6=List.generate(10, (index) => 8*index+2);
+
+//7. list.unmodified
+  List l7=List.unmodifiable(l6);     //values from l6 added to l7
+
+
   print("literal list = $mylist");
   print("literal list = $numbers");
   print('l1           = $l1');
@@ -38,4 +45,6 @@ void main() {
   print('l3           = $l3');
   print('l4           = $l4');
   print('l5           = $l5');
+  print('l6           = $l6');
+  print('l7           = $l7');
 }
