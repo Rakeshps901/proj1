@@ -19,5 +19,15 @@ void main()
   print('----------------------------------------------');
 
 
-  //3.
+  //3. for each
+  list.forEach((element)
+  {
+    print(element);
+  });
+  print('------------------------------------------');
+
+  int value=list.firstWhere((element) => element>2);
+  print(value);
+
+
 }
