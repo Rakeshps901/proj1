@@ -59,5 +59,10 @@ void main()
   print("n8 = $n8");
   print("n9 = $n9");
 
+  n1.forEach((key, value)
+  {
+    print("$key : $value");
+  });
 
+  
 }

@@ -1,7 +1,7 @@
 void main()
 {
   ///Set -> unordered Collection of elements which does not support duplicate elements
-  Set<int> s1={1,2,3,4,5,10,45};
+  Set s1={1,2,3,4,5,10,45};
 
 
   /// same as literal method but using constructor
@@ -27,7 +27,7 @@ void main()
   print('s6 = $s6');
   print('s7 = $s7');
 
-  print('Union =${s1.union(s2)}');
+  print('Union =${s1.union(s5)}');
   print('Intersection=${s1.intersection(s2)}');
   print('Difference = ${s2.difference(s1)}');
 
